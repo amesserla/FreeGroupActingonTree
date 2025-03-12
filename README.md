@@ -9,3 +9,7 @@ The code as is draws a tree in a 1000x1000px window, with a blue dot that follow
 Tools that already exist include a line class that is just a rectangle that is always one pixel wide, can be rotated, scaled, and has funtions related to building the branch class. The branch class, is a single branch of the tree that can be built recursively to draw a quarter of the tree, and various spacing and movement calculations. There exist variables that can be modified to adjust spacing, and maximum iterations of the tree to be drawn for performance reasons (exponential growth is fast).
 
 I started working on other tools that might be useful, such as things to validate that with strings are on the alphabet "[abAB]", finding the reduction and inverse of words in that alphabet, and a class of points (like the point that follows the origin). Eventually, I want to use these tools to draw [line patterns](https://arxiv.org/pdf/1006.2123).
+
+The tree drawn looks like the image below at 1000x1000px, but it moves.
+
+![Tree](Tree.jpeg)
